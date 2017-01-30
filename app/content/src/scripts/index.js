@@ -12,7 +12,7 @@ const store = new Store({
 });
 
 const anchor = document.createElement('div');
-anchor.id = 'code-journal-content-anchor';
+anchor.id = 'pomodoro-content-anchor';
 
 document.body.insertBefore(anchor, document.body.childNodes[0]);
 
@@ -20,5 +20,5 @@ render(
     <Provider store={store}>
         <App />
     </Provider>,
-    document.getElementById('code-journal-content-anchor')
+    document.getElementById('pomodoro-content-anchor')
 );

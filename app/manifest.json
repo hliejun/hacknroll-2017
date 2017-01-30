@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Code Journal",
+    "name": "Pomodoro",
     "description": "Document your learning",
     "version": "0.0.0.1",
     "background": {
@@ -10,7 +10,7 @@
         "persistent": true
     },
     "browser_action": {
-        "default_title": "Code Journal",
+        "default_title": "Pomodoro",
         "default_popup": "popup.html"
     },
     "chrome_url_overrides": {
