@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Pomodoro",
-    "description": "Document your learning",
+    "description": "Boost your efficiency",
     "version": "0.0.0.1",
     "background": {
         "scripts": [
